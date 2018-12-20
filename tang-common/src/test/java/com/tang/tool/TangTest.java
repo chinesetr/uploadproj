@@ -9,7 +9,7 @@ public class TangTest {
 	System.out.println(s1==s2);
 
 	Users u1 = new Users("zhang", "3221", 18);
-	System.out.println(u1.getName());
+	//System.out.println(u1.getName());
 	String ss = JsonUtils.BUNDLE.getString("KEYID");
 	System.out.println("ss:"+ss);
     }

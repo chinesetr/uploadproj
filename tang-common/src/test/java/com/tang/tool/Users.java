@@ -5,9 +5,12 @@ public class Users {
     private String name;
     private String id;
     private int sge;
-    public String getName() {
+    /*public String getName() {
         return name;
-    }
+    }*/
+   /* public String getName(int version) {
+        return "lisi";
+    }*/
     public void setName(String name) {
         this.name = name;
     }
