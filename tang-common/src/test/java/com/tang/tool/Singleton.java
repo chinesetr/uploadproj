@@ -10,5 +10,12 @@ public class Singleton {
     public static Singleton getSingleton() {
 	return ss;
     }
+    @Override
+    public String toString() {
+	return "Singleton [getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString()
+		+ "]";
+    }
+    
+    
 
 }
