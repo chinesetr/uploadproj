@@ -1,5 +1,9 @@
 package com.tang.tool;
 
+import java.time.LocalDateTime;
+
+import com.tang.common.utils.DateTimeUtils;
+
 public class Test2 {
 
     public static void main(String[] args) {
@@ -50,8 +54,11 @@ public class Test2 {
 
         System.out.println(str);
     */
-	Singleton ss =Singleton.getSingleton();
-	StaticClassSinglton scs = StaticClassSinglton.getSinglton();
-	System.out.println(scs);
+	String timestr = "2018 九月 09 09:15";
+	LocalDateTime ldt = DateTimeUtils.parseTime(timestr);
+	LocalDateTime myt = LocalDateTime.now();
+	String dtstring = DateTimeUtils.toString(myt);
+	System.out.println(ldt);
+	System.out.println(dtstring);
     }
 }
