@@ -59,6 +59,6 @@ public class Test2 {
 	LocalDateTime myt = LocalDateTime.now();
 	String dtstring = DateTimeUtils.toString(myt);
 	System.out.println(ldt);
-	System.out.println(dtstring);
+	System.out.println(dtstring+"解决冲突");
     }
 }
