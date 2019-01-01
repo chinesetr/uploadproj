@@ -52,6 +52,6 @@ public class Test2 {
     */
 	Singleton ss =Singleton.getSingleton();
 	StaticClassSinglton scs = StaticClassSinglton.getSinglton();
-	System.out.println(scs);
+	System.out.println(scs+"aaaaaa");
     }
 }
